@@ -56,7 +56,7 @@ Resultados:
 - Clothing: $155,580 
 - Electronics: $156,905 
 
----
+---_
 
 2. Promedio de ventas por categoría
 
