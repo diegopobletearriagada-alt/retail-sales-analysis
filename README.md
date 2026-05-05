@@ -4,14 +4,13 @@ Análisis y Predicción de Ventas en una Tienda de Retail (Core)
 
 Análisis y Predicción de Ventas en una Tienda de Retail (Core)
 
----
+
 
 ## Descripción
 
 En este proyecto se realiza un análisis básico de un dataset de ventas de retail utilizando NumPy. 
 Se exploran los datos, se calculan métricas clave y se analizan las ventas por categoría de producto.
 
----
 
 ## Dataset
 
@@ -27,8 +26,6 @@ Para el desarrollo se utiliza el dataset Retail Sales Dataset (2023-2024), que c
 - Price per Unit 
 - Total Amount 
 
-
-
 ## Carga de Datos
 
 Se realizó una carga inicial con NumPy según el enunciado:
@@ -42,7 +39,7 @@ datos = np.genfromtxt(ruta_archivo, delimiter=',', skip_header=1, dtype=str).
 
 Se utilizó np.unique para identificar las categorías distintas dentro de la columna "Product Category". (Este recurso lo utilicé en base a lo revisado en clase a partir de una consulta realizada por la compañera Helen al profesor Jesús).
 
----
+
 
 ## Análisis Realizado
 
@@ -56,7 +53,6 @@ Resultados:
 - Clothing: $155,580 
 - Electronics: $156,905 
 
----_
 
 2. Promedio de ventas por categoría
 
@@ -68,7 +64,6 @@ Resultados:
 - Clothing: $443.25 
 - Electronics: $458.79 
 
----
 
 3. Categorías con mayor y menor venta
 
@@ -90,7 +85,7 @@ Se filtraron registros por categoría, por ejemplo:
 
 [fila for fila in datos if fila[5] == 'Beauty']
 
----
+
 
 5. Transformaciones
 
